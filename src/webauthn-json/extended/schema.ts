@@ -14,6 +14,8 @@ const authenticationExtensionsClientInputsSchema: Schema = {
   appidExclude: optional(copyValue),
   uvm: optional(copyValue),
   credProps: optional(copyValue),
+  credentialProtectionPolicy: optional(copyValue),
+  enforceCredentialProtectionPolicy: optional(copyValue),
   largeBlob: optional({
     support: optional(copyValue),
     read: optional(copyValue),
